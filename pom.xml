@@ -76,6 +76,14 @@
             <version>${junit.platform.version}</version>
             <scope>test</scope>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/org.apache.kafka/kafka-streams -->
+        <dependency>
+            <groupId>org.apache.kafka</groupId>
+            <artifactId>kafka-streams</artifactId>
+            <version>3.3.2</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
